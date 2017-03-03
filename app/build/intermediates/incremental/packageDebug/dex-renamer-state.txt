@@ -1,0 +1,7 @@
+#Fri Mar 03 12:33:18 GMT+08:00 2017
+base.0=D\:\\studio\\workspace\\zhy_arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_899ceaa1826aa783a4f5338d310d6635beda8880
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\studio\\workspace\\zhy_arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e4890423b711ea5eba9c28bd8d7f7077060ca5c\\classes.dex
+base.1=D\:\\studio\\workspace\\zhy_arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e4890423b711ea5eba9c28bd8d7f7077060ca5c
+file.0=D\:\\studio\\workspace\\zhy_arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_899ceaa1826aa783a4f5338d310d6635beda8880\\classes.dex
