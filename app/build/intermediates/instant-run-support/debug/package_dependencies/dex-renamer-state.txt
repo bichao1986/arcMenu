@@ -1,0 +1,4 @@
+#Tue Mar 07 11:26:42 GMT+08:00 2017
+base.0=D\:\\studio\\workspace\\arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_8ac7b1c8a569f7933d8166bd143845637bc2af33
+renamed.0=classes.dex
+file.0=D\:\\studio\\workspace\\arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_8ac7b1c8a569f7933d8166bd143845637bc2af33\\classes.dex

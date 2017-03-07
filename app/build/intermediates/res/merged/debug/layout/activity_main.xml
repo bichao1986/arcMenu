@@ -58,7 +58,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         zhy:position="right_bottom"
-        zhy:radius="130dp" >
+        zhy:radius="80dp" >
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -94,12 +94,6 @@
             android:src="@drawable/composer_place"
             android:tag="Place" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/composer_sleep"
-            android:tag="Sleep" />
     </com.example.zhy_arcmenu.ArcMenu>
 
     <com.example.zhy_arcmenu.ArcMenu

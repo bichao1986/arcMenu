@@ -36,7 +36,7 @@ public class ArcMenu extends ViewGroup implements OnClickListener
 	/**
 	 * 菜单离屏幕边框的距离
 	 */
-	private int mMargin = 0;
+	private int mMargin = 80;
 	/**
 	 * 用户点击的按钮
 	 */
@@ -184,11 +184,12 @@ public class ArcMenu extends ViewGroup implements OnClickListener
 				if (mPosition == Position.CENTER_BOTTOM) {
 					ct = (int) (mRadius * Math.sin(Math.PI / count * (i + 1)));
 					cl = (int) (mRadius * Math.cos(Math.PI / count * (i + 1)));
-				} else {
-					cl = (int) (mRadius * Math.sin(Math.PI / 2 / (count - 2)
-							* i));
-					ct = (int) (mRadius * Math.cos(Math.PI / 2 / (count - 2)
-							* i));
+				} else if (mPosition == Position.RIGHT_BOTTOM){
+					ct = (int) (mRadius * Math.sin(Math.PI / count * (i + 1)));
+					cl = (int) (mRadius * Math.cos(Math.PI / count * (i + 1)));
+				}else {
+					cl = (int) (mRadius * Math.sin(Math.PI / 2 / (count - 2) * i));
+					ct = (int) (mRadius * Math.cos(Math.PI / 2 / (count - 2) * i));
 				}
 				// childview width
 				int cWidth = child.getMeasuredWidth();
@@ -203,9 +204,14 @@ public class ArcMenu extends ViewGroup implements OnClickListener
 				}
 				// 右上，右下
 				if (mPosition == Position.RIGHT_TOP
-						|| mPosition == Position.RIGHT_BOTTOM)
+						||mPosition == Position.RIGHT_BOTTOM)
 				{
 					cl = getMeasuredWidth() - cWidth - cl;
+				}
+				if (mPosition == Position.RIGHT_BOTTOM){
+					cl = cl/5*4;
+//					cl = getMeasuredWidth() / 5*4 - cWidth / 5*4 - cl;
+//					ct = getMeasuredHeight() - cHeight - ct - mMargin;
 				}
 				if (mPosition == Position.CENTER_BOTTOM) {
 					cl = getMeasuredWidth() / 2 - cWidth / 2 - cl;
@@ -247,8 +253,8 @@ public class ArcMenu extends ViewGroup implements OnClickListener
 			t = 0;
 			break;
 		case RIGHT_BOTTOM:
-			l = getMeasuredWidth() - width;
-			t = getMeasuredHeight() - height;
+			l = getMeasuredWidth()/5*4 - width/5*4;
+			t = getMeasuredHeight() - height-30;
 			break;
 		case CENTER_BOTTOM:
 			l = getMeasuredWidth()/2-width/2;
@@ -316,7 +322,10 @@ public class ArcMenu extends ViewGroup implements OnClickListener
 			if (mPosition == Position.CENTER_BOTTOM) {
 				ct = (int) (mRadius * Math.sin(Math.PI / count * (i + 1)));
 				cl = (int) (mRadius * Math.cos(Math.PI / count * (i + 1)));
-			} else {
+			} else if (mPosition == Position.RIGHT_BOTTOM){
+				ct = (int) (mRadius * Math.sin(Math.PI / count * (i + 1)))/5*4;
+				cl = (int) (mRadius * Math.cos(Math.PI / count * (i + 1)))/5*4;
+			}else {
 				// child left
 				cl = (int) (mRadius * Math.sin(Math.PI / 2 / (count - 2) * i));
 				// child top

@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\studio\workspace\zhy_arcMenu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\studio\workspace\arcMenu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6fca8c9e43ead06041a8381abc133a862f8b1644">
-        <dex dex="D:\studio\workspace\zhy_arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_899ceaa1826aa783a4f5338d310d6635beda8880\classes.dex" />
+        sha1="7d08b5355399520d6609802522729400f0557190">
+        <dex dex="D:\studio\workspace\arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0f016d6e8df75e3955cb2dc7450b5c38a313c5f9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\studio\workspace\zhy_arcMenu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\studio\workspace\arcMenu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2721f93a33ada895e8318b3d0ba55f40dde94a95">
-        <dex dex="D:\studio\workspace\zhy_arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9e4890423b711ea5eba9c28bd8d7f7077060ca5c\classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\studio\workspace\arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_544b98a0a0e28b63fa9b2a0355f106f24be9d0f3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -26,7 +26,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="D:\studio\workspace\zhy_arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_8ac7b1c8a569f7933d8166bd143845637bc2af33\classes.dex" />
+        <dex dex="D:\studio\workspace\arcMenu\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_8ac7b1c8a569f7933d8166bd143845637bc2af33\classes.dex" />
     </item>
 
 </items>

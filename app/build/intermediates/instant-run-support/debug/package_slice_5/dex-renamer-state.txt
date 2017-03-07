@@ -1,0 +1,4 @@
+#Tue Mar 07 11:26:43 GMT+08:00 2017
+base.0=D\:\\studio\\workspace\\arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
+renamed.0=classes.dex
+file.0=D\:\\studio\\workspace\\arcMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex
